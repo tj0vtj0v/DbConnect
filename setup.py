@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name='DbConnect',
-    packages=['DbConnect'],
+    name='DbConnectTjorven',
+    packages=['DbConnectTjorven'],
     version='1.0',
     license='GNU',
     descriptoin='test',
@@ -17,6 +17,7 @@ setup(
         'Intended Audience :: Just Author',
         'Topic :: Development Aid',
         'License :: GNU V3.0',
-        'Programming Language :: Python :: 3.1x',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
     ],
 )
