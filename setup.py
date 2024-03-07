@@ -14,9 +14,9 @@ setup(
     install_requires=['mysql-connector-python'],
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Intended Audience :: Just Author',
-        'Topic :: Development Aid',
-        'License :: GNU V3.0',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Build Tools',
+        'License :: GNU',
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
     ],
