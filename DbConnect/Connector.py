@@ -14,15 +14,18 @@ class Connector:
         self.database.autocommit = True
         self.actor = self.database.cursor()
 
-   def make_entry(self, table: str, values: str, log: bool = True):
+
+    def make_entry(self, table: str, values: str, log: bool = True):
         statement = f'''INSERT INTO `{table}` VALUES ({values});'''
 
         self.exec_statement(statement, log)
 
+
     def delete_entries_before_timestamp(self, table: str, min_time: str, , log: bool = True):
         statement = f"""DELETE FROM `{table}` WHERE `timestamp` < '{min_time}';"""
-        
+
         self.exec_statement(statement, log)
+
 
     def exec_statement(self, statement: str, log: bool = True):
         if log:
@@ -30,6 +33,7 @@ class Connector:
 
         self.actor.execute(statement)
         self.database.commit()
+
 
     def close_connection(self):
         self.actor.close()
