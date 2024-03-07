@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='DbConnectTjorven',
     packages=['DbConnectTjorven'],
-    version='1.0',
+    version='1.1',
     license='GNU',
     descriptoin='test',
     author='Tjorven Burdorf',
