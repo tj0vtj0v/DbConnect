@@ -17,6 +17,6 @@ setup(
         'Intended Audience :: Just Author',
         'Topic :: Development Aid',
         'License :: GNU V3.0',
-        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.1x',
     ],
 )
